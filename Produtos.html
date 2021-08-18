@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<script src="assets/js/main.js"></script>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="https://kit.fontawesome.com/a290182793.js"></script>
+	<link rel="stylesheet" href="/assets/css/reset.css">
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/favicon_io (1)/android-chrome-512x512.png" type="image/x-icon">
+	<title>DGB TECH - PRODUTOS</title>
+	<style>
+        ::selection{
+    background-color: rgb(85, 85, 241);
+    color: #fff;
+}
+    </style>
+</head>
+<body>
+    <header>
+		<div class="container-secondary">
+            <nav class="secondary">
+                <li class="logo">
+                        <div class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="Empresa.html">Sobre Nos</a>
+                        <a href="AreadeAtuacao.html">Area de Atuação</a>
+                        <a href="Contato.html">Contatos</a>
+                        </div>
+                </li>
+                <ul class="nav-list">
+					<li>
+                        <a href="#Beneficios" class="nav-link">Beneficios</a>
+                    </li>
+                    <li>
+                        <a href="#Produtos" class="nav-link">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#Aplicacoes" class="nav-link">Aplicações</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+	</header>
+    <section class="Produtos">
+        <div class="Produtos-img"></div>
+        <div class="Produtos-main-text">
+            <h1>A Melhor Solução</h1>
+            <button class="btn"><a href="#Produtos"> Veja os Produtos</a></button>
+        </div>
+    </section>
+    <section id="Beneficios">
+        <ul>
+            <li><div class="Beneficios-itens"><p>Numero 1</p></div></li>
+            <li><div class="Beneficios-itens"><p>Numero 2</p></div></li>
+            <li><div class="Beneficios-itens"><p>Numero 3</p></div></li>
+            <li><div class="Beneficios-itens"><p>Numero 4</p></div></li>
+        </ul>
+    </section>
+    <section id="Produtos">
+            
+                <div>
+                    <div  class="Produtos-fotos">
+                        <img id="image-produto" class="frente"  src="assets/imgs/transparent-bg-+-shadow-designify.png" alt="">
+                        <img src="assets/imgs/IMG_1095.png" id="back" class="tras" alt="">
+                    </div>
+                    <i class='bx bx-right-arrow-alt' id="main" onclick="edit()"></i>
+                    <i class='bx bx-right-arrow-alt' id="backarrow" onclick="back()"></i>
+                </div>
+                <div class="Produtos-texto">
+                    <h1 id="titulo">RELE</h1>
+                    <p id="texto">DESCRIÇÃO DO PRODUTO</p>
+                    <div class="btn2"><a href="Contato.html">Contate-nos</a></div>
+                </div>
+    </section>    
+    <section id="Aplicacoes">
+        <ul>
+            <li class="aplicacoes-itens"><p >Industriais</p></li>
+            <li class="aplicacoes-itens"><p >Otimização de Processos</p></li>
+            <li class="aplicacoes-itens"><p >Residenciais</p></li>
+        </ul>
+        <p id="texto-modificar">
+
+        </p>
+        <img src="" alt="">
+    </section>
+    <footer class="footer-contato">
+		<abbr title="Clique para Copiar"><i class='bx bxs-phone' onclick="copiarNumero()"></i></abbr> 
+			<p class="footer-telefone-numero" id="numero">(11) 95118-4579</p>
+			<abbr title="Clique  para Copiar"><i class='bx bx-envelope' onclick="copiarTexto()"></i></abbr>
+			<p class="footer-telefone-numero" id="email">contato@dgbtech.com.br</p>
+	</footer>
+</body>
+</html>
