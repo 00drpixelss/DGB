@@ -1,0 +1,39 @@
+	
+	O nome da empresa é DGB TECH, é uma empresa voltada a serviços, desenvolvimento e criação de soluções para as areas eletrica, eletrônica e automação.
+
+
+	Descrição das areas de atuação
+
+	- Eletrica
+	atuação em instalações eletricas residenciais e prediais, desde a infraestrustura a melhoramento das instalações.
+
+	- Eletrônica 
+	atuação em desenvolvimento de projetos de hardware e software.
+	
+	- Automação
+	manutenção de maquinas operatrizes e melhoramento de processos voltados a desenvolvimento de software e montagem de paineis.
+
+
+
+
+	O que neste primeiro momento o site deve possuir.
+	
+	- deve contar com os botões home, empresa, areas de atuação, produtos e fale conosco.
+	
+	HOME
+	- ser acessado atraves da tecla home e do logotipo, nela deve conter a imagem da placa de circuito impresso e a descrição da empresa. O cabeçalho deve conter
+o logo e no rodapé deve conter o telefone de contato e o email de contato (11 95118-4579) (contato@dgbtech.com.br)
+
+	EMPRESA
+	- deve conter os seguintes textos descritivos.
+	Nossa missão, Nossa visão e Nossos Valores.
+        O background deve conter cabeçalho, rodapé e no lugar da imagem da placa, terá uma area em branco com estes decritivos acima.
+	
+	AREAS de ATUAÇÃO
+	- deve conter um botão com subniveis de acordo com as areas eletrica, eletrônica e automação
+	
+	PRODUTOS
+	- no futuro será uma parte da loja online
+
+	FALE CONOSCO
+	deve conter os meios de contatos    
