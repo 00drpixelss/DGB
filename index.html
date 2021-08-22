@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+	</script>
+	<script src="assets/js/main.js"></script>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="https://kit.fontawesome.com/a290182793.js"></script>
+	<link rel="stylesheet" href="/assets/css/reset.css">
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/favicon_io (1)/android-chrome-512x512.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700">
+	<title>DGB TECH - HOME</title>
+</head>
+<body>
+		<aside>
+			<header>
+				<div class="container">
+					<nav class="nav">
+						<a href="index.html" class="logo"></a>
+						<ul class="nav-list">
+							<li>
+								<a href="Empresa.html" class="nav-link">Sobre nos</a>
+							</li>
+							<li>
+								<a href="Produtos.html" class="nav-link">Produtos</a>
+							</li>
+							<li>
+								<a href="AreadeAtuacao.html" class="nav-link">Area de Atuação</a>
+							</li>
+							<li>
+								<a href="Contato.html" class="nav-link" id="navbarcontato">Contato</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+		</aside>
+		<main>
+			<section id="home">
+				<div class="banner">
+					<!--Photo by <a href="https://unsplash.com/@vishnumaiea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vishnu Mohanan</a> on <a href="https://unsplash.com/s/photos/pcb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+		  -->
+					<h1 class="title">DGB TECH</h1>
+					<p>Desenvolvimento e Criação de Soluções para as areas eletrica, eletrônica e automação.</p>
+					<abbr title="Role para Baixo">
+						<div class="scrolldown-flex">
+							<div class="scrolldown" onclick="Down()"></div>
+							<div id="scroll2" class="scrolldown" onclick="Down()"></div>
+						</div>
+					</abbr>
+					<script>
+						function Down() {
+							window.scrollBy(0, 579);
+						}
+					</script>
+				</div>
+			</section>
+			<!--##################################################################################################-->
+			<section class="sobrenos" id="sobrenos">
+				<h1 class="sobrenos-title"> Soluções Eletroeletrônicas e de Automação Industrial <br><span>Entenda Mais sobre nossos
+					Valores!</span></p></h1>
+				<p>A DGB TECH é uma empresa que atua na concepção e implantação de projetos voltados as areas de
+					eletroeletrônica e automação Industrial, Predial e Residencial.
+				<div class="button" id="button-4">
+					<div id="underline"></div>
+					<a href="Empresa.html">Saiba Mais<a>
+				</div>
+			</section>
+			<section class="homeprodutos">
+				<div class="homeproduto-title">
+					<h1>NOSSOS SERVIÇOS</h1>
+				</div>
+				<div class="home-servicos">
+					<p>
+					<ul class="home-servicos">
+						<li class="li-1" onmouseenter="mostra1()">Automação Industrial<i
+								class="far fa-hand-pointer"></i></i></li>
+						<li class="li-2" onmouseenter="mostra2()">Eletrica</li>
+						<li class="li-3" onmouseenter="mostra3()">Eletronica</li>
+					</ul>
+					</p>
+				</div>
+				<p id="hidetext"></p>
+				<script>
+					function mostra1() {
+						document.getElementById('hidetext').innerHTML = "Manutenção de maquinas operatrizes e melhoramento de processos voltados a desenvolvimento de software e montagem de paineis"
+					}
+					function mostra2() {
+						document.getElementById('hidetext').innerHTML = "Atuação em instalações eletricas residenciais e prediais, desde a infraestrustura a melhoramento das instalações."
+					}
+					function mostra3() {
+						document.getElementById('hidetext').style.marginBottom = "100px"
+						document.getElementById('hidetext').innerHTML = "Atuação em desenvolvimento de projetos de hardware e software."
+					}
+				</script>
+			</section>
+			<section class="homeslider">
+				<div class="produtoimage">
+				</div>
+				</div>
+				<div class="texto-slider">
+					<h2>Nossos Produtos</h2>
+					<p>Conheça Nossos Produtos!</p>
+					<div class="texto-button">
+						<div class="button" id="button-5">
+							<a href="Produtos.html">Saiba Mais<a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<aside>
+			<footer class="footer-contato">
+				<abbr title="Clique para Copiar"><i class='bx bxs-phone' onclick="copiarNumero()"></i></abbr>
+				<p class="footer-telefone-numero" id="numero">(11) 95118-4579</p>
+				<abbr title="Clique  para Copiar"><i class='bx bx-envelope' onclick="copiarTexto()"></i></abbr>
+				<p class="footer-telefone-numero" id="email">contato@dgbtech.com.br</p>
+			</footer>
+		</aside>
+</body>
+</html>
