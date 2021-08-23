@@ -137,7 +137,9 @@ main {
 abbr[title] {
     border-bottom: none;
 }
-
+.flip{
+    transform: rotate(180deg);
+}
 /*NAVBAR*/
 
 .dropdown-content {
