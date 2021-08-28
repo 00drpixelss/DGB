@@ -1360,22 +1360,19 @@ textarea {
     height: 100px;
     display: flex;
     justify-content: center; 
+    align-items: center; 
 }
 
 .bxs-phone {
-    cursor: pointer;
-    margin-top: 20px;
-    margin-left: 24vw;
-    float: left;
+    cursor: pointer
+   
     font-size: 2em;
 }
 
 .bx-envelope {
     cursor: pointer;
     white-space: nowrap;
-    margin-top: 20px;
-    margin-left: 100px;
-    float: left;
+   
     font-size: 2em;
 }
 
@@ -1387,8 +1384,6 @@ textarea {
     width: 200px;
     height: auto;
     font-weight: bold;
-    float: left;
-    margin-top: 25px;
 }
 
 /*FOOTER*/
