@@ -1358,6 +1358,8 @@ textarea {
     font-family: 'Poppins', sans-serif;
     background-color: #000000;
     height: 100px;
+    display: flex;
+    justify-content: center; 
 }
 
 .bxs-phone {
