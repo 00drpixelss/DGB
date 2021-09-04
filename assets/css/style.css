@@ -745,10 +745,7 @@ textarea {
     height: 400px;
 }
 
-.produtoimage:hover {
-    height: 450px;
-    width: 550px;
-}
+
 
 .texto-slider {
     margin-left: 50px;
