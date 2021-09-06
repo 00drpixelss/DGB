@@ -1642,7 +1642,7 @@ textarea {
     .Beneficios-itens{
         z-index: 9;
         width: 45vw;
-        height: 10vh;
+        height: 30vh;
     }
     .Beneficios-itens:hover{
         transform: scale(1);
