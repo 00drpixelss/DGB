@@ -1,2 +1,3 @@
 # DGB
-Primierio teste
+ Todos os direitos reservados a Diogo 
+ 

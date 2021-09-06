@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!--
+        <a href='https://www.freepik.com/vectors/infographic'>Infographic vector created by jcomp - www.freepik.com</a>
+    -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<script src="assets/js/main.js"></script>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="https://kit.fontawesome.com/a290182793.js"></script>
+	<link rel="stylesheet" href="/assets/css/reset.css">
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/favicon_io (1)/android-chrome-512x512.png" type="image/x-icon">
+	<title>DGB TECH - PRODUTOS</title>
+	<style>
+        html{
+    height: 1200px;
+        }
+        ::selection{
+    background-color: rgb(85, 85, 241);
+    color: #fff;
+}
+    </style>
+</head>
+<body>
+    <aside>
+        <header>
+                <div class="container-secondary">
+                <nav class="secondary">
+                    <li class="logo">
+                        <div class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="Empresa.html">Sobre Nos</a>
+                        <a href="Produtos.html">Produtos</a>
+                        <a href="Contato.html">Contatos</a>
+                        </div>
+                </li>
+                    <ul class="nav-list">
+                            <li>
+                            <a href="#automacao" class="nav-link">Automação Industrial</a>
+                        </li>
+                        <li>
+                            <a href="#eletronica" class="nav-link">Eletrônica</a>
+                        </li>
+                        <li>
+                            <a href="#eletrica" class="nav-link">Elétrica</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            </header>
+    </aside>
+            <main>
+                <section id="automacao">
+                    <div class="automacao-text">
+                        <div>
+                            <h1>Automação Industrial</h1>
+                        </div>
+                        <p id="hide">Oferecemos Manuntenção de Maquina Operatrizes, Melhoramento de processos voltados a desenvolvimento de Softwares e Montagem de Paineis. </p>
+
+                        <div class="btn3" id='btn'><a  onclick="hiddentext()">Saiba Mais</a></div>
+                        <div class="btn3" id='btn2'><a href='Contato.html' onclick="hiddentext()" id='btntext'>Saiba Mais</a></div>
+
+                   
+                    </div>
+                    <script>
+                        function hiddentext(){
+                                document.getElementById('hide').style.display="block";
+                                document.getElementById('btn').style.display="none";
+                                document.getElementById('btn2').style.display="block";
+                                document.getElementById('btntext').innerHTML ='Contate-nos';
+                                document.getElementById('btn2').style.width = '150px';
+                        }
+                    </script>
+                </section>
+                <section id="eletronica">
+                    <div class="eletronica-text">
+                        <div>
+                            <h1>Eletrônica</h1>
+                        </div>
+                        <p id="hide2">Atuamos no Desenvolvimento De Projetos De Hardware e Softwares, Entendemos as Necessidades do Cliente e Desevolvemos a Melhor Solução.</p>
+                        <div class="btn3" id='btn0' ><a  onclick="hiddentext2()">Saiba Mais</a></div>
+                        <div class="btn3" id='btn3'><a href='Contato.html' onclick="hiddentext2()" id='btntext2'>Saiba Mais</a></div>
+
+                   
+                    </div>
+                    <script>
+                        function hiddentext2(){
+                                document.getElementById('hide2').style.display="block";
+                                document.getElementById('btn0').style.display="none";
+                                document.getElementById('btn3').style.display="block";
+                                document.getElementById('btntext2').innerHTML ='Contate-nos';
+                                document.getElementById('btn3').style.width = '150px';
+                        }
+                    </script>
+                </section>
+                <section id="eletrica">
+                    <div class="eletrica-text">
+                        <div>
+                            <h1>Elétrica</h1>
+                        </div>
+                        <p id="hide3">Atuamos Em Instalações Eletricas Residenciais e Prediais, Desde A Infraestrustura ao Melhoramento Das Instalações.</p>
+                        <div class="btn3" id='btn1' ><a onclick="hiddentext3()">Saiba Mais</a></div>
+                        <div class="btn3" id='btn4'><a href='Contato.html' onclick="hiddentext3()" id='btntext3'>Saiba Mais</a></div>
+
+                   
+                    </div>
+                    <script>
+                        function hiddentext3(){
+                                document.getElementById('hide3').style.display="block";
+                                document.getElementById('btn1').style.display="none";
+                                document.getElementById('btn4').style.display="block";
+                                document.getElementById('btntext3').innerHTML ='Contate-nos';
+                                document.getElementById('btn4').style.width = '150px';
+                        }
+                    </script>
+                </section>
+            </main>
+    <aside>
+        <footer class="footer-contato">
+            <abbr title="Clique para Copiar"><i class='bx bxs-phone' onclick="copiarNumero()"></i></abbr> 
+                <p class="footer-telefone-numero" id="numero">(11) 95118-4579</p>
+                <abbr title="Clique  para Copiar"><i class='bx bx-envelope' onclick="copiarTexto()"></i></abbr>
+                <p class="footer-telefone-numero" id="email">contato@dgbtech.com.br</p>
+        </footer>
+    </aside>
+</body>
+</html>
