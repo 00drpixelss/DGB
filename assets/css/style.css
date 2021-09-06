@@ -224,14 +224,14 @@ header {
     transition: 0.2s;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/DGB-main/assets/imgs/logo5.png);
+    background-image: url(/assets/imgs/logo5.png);
     height: 50px;
     width: 180px;
     padding-top: 6px;
     margin-left: 30px;
 }
 .logo2{
-    background-image: url(/DGB-main/assets/imgs/logo2.png);
+    background-image: url(/assets/imgs/logo2.png);
 
 }
 .nav-list {
@@ -299,7 +299,7 @@ header {
 .scrolling-active .nav .logo {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/DGB-main/assets/imgs/logo2.png);
+    background-image: url(/assets/imgs/logo2.png);
     height: 40px;
     width: 180px;
     padding-top: 1rem;
@@ -342,7 +342,7 @@ header {
         background-size: 180%;
         background-repeat: no-repeat;
         padding: 15em 1em;
-        background-image: url(/DGB-main/assets/imgs/vishnu-mohanan-pfR18JNEMv8-unsplash.jpg);
+        background-image: url(/assets/imgs/vishnu-mohanan-pfR18JNEMv8-unsplash.jpg);
     }
     
     .title {
